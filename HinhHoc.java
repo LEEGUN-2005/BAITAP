@@ -3,27 +3,27 @@ import java.util.Scanner;
 public class HinhHoc {
     public static final float PI = 3.14f;
     public String ten;
-    public float chuVi;
-    public float dienTich;
-    public float theTich;
+    public float chuvi;
+    public float dientich;
+    public float thetich;
 
     public HinhHoc() {
-        ten = "Hình học";
+        ten = "Hinh hoc";
     }
 
-    public void xuatTen() {
-        System.out.println("Tên hình: " + ten);
+    public void xuatten() {
+        System.out.println("ten hinh: " + ten);
     }
 
-    public void inChuVi() {
-        System.out.println("Chu vi: " + chuVi);
+    public void inchuvi() {
+        System.out.println("chu vi: " + chuvi);
     }
 
-    public void inDienTich() {
-        System.out.println("Diện tích: " + dienTich);
+    public void indientich() {
+        System.out.println("dien tich: " + dientich);
     }
 
-    public void inTheTich() {
-        System.out.println("Thể tích: " + theTich);
+    public void inthetich() {
+        System.out.println("the tich: " + thetich);
     }
 }
