@@ -1,41 +1,36 @@
 public class Main {
     public static void main(String[] args) {
-     
         HinhTron hinhTron = new HinhTron();
-        hinhTron.nhapBanKinh();
-        hinhTron.tinhChuVi();
-        hinhTron.tinhDienTich();
-        hinhTron.xuatTen();
-        hinhTron.inChuVi();
-        hinhTron.inDienTich();
+        hinhTron.nhapbankinh();
+        hinhTron.tinhchuvi();
+        hinhTron.tinhdientich();
+        hinhTron.xuatten();
+        hinhTron.inchuvi();
+        hinhTron.indientich();
 
-    
         HinhTru hinhTru = new HinhTru();
-        hinhTru.nhapBanKinh();
-        hinhTru.nhapChieuCao();
-        hinhTru.tinhDienTich();
-        hinhTru.tinhTheTich();
-        hinhTru.xuatTen();
-        hinhTru.inDienTich();
-        hinhTru.inTheTich();
+        hinhTru.nhapbankinh();
+        hinhTru.nhapchieucao();
+        hinhTru.tinhthetich();
+        hinhTru.xuatten();
+        hinhTru.indientich();
+        hinhTru.inthetich();
 
-      
         HinhChuNhat hinhChuNhat = new HinhChuNhat();
-        hinhChuNhat.nhapChieuDai();
-        hinhChuNhat.nhapChieuRong();
-        hinhChuNhat.tinhChuVi();
-        hinhChuNhat.tinhDienTich();
-        hinhChuNhat.xuatTen();
-        hinhChuNhat.inChuVi();
-        hinhChuNhat.inDienTich();
+        hinhChuNhat.nhapdai();
+        hinhChuNhat.nhaprong();
+        hinhChuNhat.tinhchuvi();
+        hinhChuNhat.tinhdientich();
+        hinhChuNhat.xuatten();
+        hinhChuNhat.inchuvi();
+        hinhChuNhat.indientich();
 
-     
         HinhVuong hinhVuong = new HinhVuong();
-        hinhVuong.nhapCanh();
-        hinhVuong.tinhChuVi();
-        hinhVuong.tinhDienTich();
-        hinhVuong.xuatTen();
-        hinhVuong.inChuVi();
-        hinhVuong.inDienTich();
+        hinhVuong.nhapcanh();
+        hinhVuong.tinhchuvi();
+        hinhVuong.tinhdientich();
+        hinhVuong.xuatten();
+        hinhVuong.inchuvi();
+        hinhVuong.indientich();
     }
 }
