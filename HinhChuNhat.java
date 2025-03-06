@@ -1,27 +1,26 @@
+
+import java.util.Scanner;
 public class HinhChuNhat extends HinhHoc {
-    public float dai, rong;
+    public float dai;
+    public float rong;
 
     public HinhChuNhat() {
-        ten = "Hình chữ nhật";
+        ten = "hinh chu nhat";
     }
-
-    public void nhapChieuDai() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập chiều dài: ");
-        dai = sc.nextFloat();
+    public void nhapdai() {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("nhap chieu dai: ");
+        dai = kb.nextFloat();
     }
-
-    public void nhapChieuRong() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập chiều rộng: ");
-        rong = sc.nextFloat();
+    public void nhaprong() {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("nhap chieu rong: ");
+        rong = kb.nextFloat();
     }
-
-    public void tinhChuVi() {
-        chuVi = 2 * (dai + rong);
+    public void tinhchuvi() {
+        chuvi = 2 * (dai + rong);
     }
-
-    public void tinhDienTich() {
-        dienTich = dai * rong;
+    public void tinhdientich() {
+        dientich = dai * rong;
     }
 }
