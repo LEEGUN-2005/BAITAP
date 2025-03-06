@@ -1,21 +1,23 @@
+
+import java.util.Scanner;
 public class HinhTron extends HinhHoc {
-    public float banKinh;
+    public float bankinh;
 
     public HinhTron() {
-        ten = "Hình tròn";
+        ten = "hinh tron";
     }
 
-    public void nhapBanKinh() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập bán kính: ");
-        banKinh = sc.nextFloat();
+    public void nhapbankinh() {
+        Scanner kb = new Scanner(System.in);
+        System.out.print("nhap ban kinh: ");
+        bankinh = kb.nextFloat();
     }
 
-    public void tinhChuVi() {
-        chuVi = 2 * PI * banKinh;
+    public void tinhchuvi() {
+        chuvi = 2 * PI * bankinh;
     }
 
-    public void tinhDienTich() {
-        dienTich = PI * banKinh * banKinh;
+    public void tinhdientich() {
+        dientich = PI * bankinh * bankinh;
     }
 }
